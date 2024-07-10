@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-800 text-white p-4 text-center">
+      <p>Contacto: evaluacion2@espe.edu.ec</p>
+      <div className="mt-2">
+        <a href="https://facebook.com" className="mr-4 hover:underline">Facebook</a>
+        <a href="https://twitter.com" className="mr-4 hover:underline">Twitter</a>
+        <a href="https://instagram.com" className="hover:underline">Instagram</a>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
