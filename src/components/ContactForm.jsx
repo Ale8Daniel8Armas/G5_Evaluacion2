@@ -75,6 +75,11 @@ const ContactForm = () => {
         </div>
         <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">Enviar</button>
       </form>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </section>
   );
 };

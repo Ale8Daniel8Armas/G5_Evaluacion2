@@ -14,8 +14,23 @@ const Main = () => {
   return (
     <section id="main-content" className="p-8 text-center">
       <h1 className="text-4xl font-bold mb-4">Evaluación Parcial 2</h1>
-      <p className="text-lg mb-4">Programación Web Avanzada</p>
+      <h2 className="text-lg mb-4">Programación Web Avanzada</h2>
+      <p className="text-lg mb-4">- Armas Andrés</p>
+      <p className="text-lg mb-4">- Gutiérrez Miguel</p>
+      <p className="text-lg mb-4">- Suquillo Martín</p>
+      <br></br>
+      <hr></hr>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <button onClick={handleButtonClick} className="bg-blue-500 text-white p-2 rounded">Mostrar Mensaje</button>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+  
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center">
